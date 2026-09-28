@@ -1,5 +1,5 @@
 # Ex. No: 9 - Packet Tracer: Subnet an IPv4 Network
-# Date: ___________
+# Date:25/08/2026
 ________________________________________ <br>
 # Objective
 Design, configure, and verify an IPv4 subnetting scheme in Cisco Packet Tracer.<br>
@@ -20,8 +20,8 @@ ________________________________________
 •	Serial DCE/DTE cable for WAN link<br>
 ________________________________________<br>
 # Network Topology Diagram
-(Insert your Packet Tracer screenshot showing CustomerRouter → LAN-A Switch → PC-A, CustomerRouter → LAN-B Switch → PC-B, and ISP side with Router, Switch, Workstation, Server, and Serial link.)<br>
-________________________________________<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/835d8d9d-720b-4c7c-b903-e531b123237d" />
+
 # Addressing Table
 Device	Interface	IP Address	Subnet Mask	Default Gateway<br>
 CustomerRouter	G0/0	(1st host of LAN-A subnet)	(Subnet mask)	N/A<br>
@@ -94,9 +94,15 @@ ________________________________________<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on CustomerRouter<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/3d78954f-5d60-4b46-9b97-bff5c4c3d075" />
+
 •	show ip route<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/05b08467-2ccf-4178-add2-dd775ffc8876" />
+
 •	Successful pings: PC-A → PC-B, PC-A → ISP Server<br>
-________________________________________<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/396b0a22-0a7b-4b7b-ba59-6fb48db59eb8" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/3a0d5d7e-b6a0-4494-98b2-dc1bd8f26d59" />
+
 # Result
 The IPv4 subnetting scheme was successfully designed and implemented. Router, switches, and PCs were configured with correct addressing. Connectivity within LANs, across subnets, and to ISP devices was verified using ping and show commands.<br>
 
